@@ -3,10 +3,10 @@
   "Settings":[
     {
       "utterances": [
-        "Allume la lumière de l'entrée",
+        "Allume la lumière de l'entrée"
       ],
       "urls": [
-        ""
+        "http://192.168.1.2/core/api/jeeApi.php?apikey=yHFRARwP3lgdJOUMFH6Pt3ksLwWwWrELGh4TsiI1kdjVP3P8FiTx5hYIepevRI9A&type=cmd&id=1129"
       ],
       "answers": [
         "J'ai allumé la lumière de l'entrée.",
@@ -15,10 +15,10 @@
     },
     {
       "utterances": [
-        "Éteins la lumière de l'entrée",
+        "Éteins la lumière de l'entrée"
       ],
       "urls": [
-        ""
+        "http://192.168.1.2/core/api/jeeApi.php?apikey=yHFRARwP3lgdJOUMFH6Pt3ksLwWwWrELGh4TsiI1kdjVP3P8FiTx5hYIepevRI9A&type=cmd&id=1130"
       ],
       "answers": [
         "J'ai éteins la lumière de l'entrée.",
