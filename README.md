@@ -2,7 +2,7 @@
 <img src="https://github.com/HeyHeyChicken/NOVA/blob/master/resources/github-logo.svg" alt="NOVA" width="300">
 
 **NOVA - Webhooks** is a skill for your [NOVA](//github.com/HeyHeyChicken/NOVA) assistant.<br>
-This skill will allow your NOVA assistant to play you some Spotify music.
+This skill will allow you to call web request on specific sentences.
 </div>
 
 <br>
@@ -15,7 +15,7 @@ This skill will allow your NOVA assistant to play you some Spotify music.
 
 ## Features
 
-- This skill will allow you to call web request on sentences.
+- This skill will allow you to call web request on specific sentences.
 
 ## Support and contribution
 
