@@ -1,5 +1,4 @@
-
-SELF.TTS(socket, text);const LIBRARIES = {
+const LIBRARIES = {
   Axios: require("axios"),
   Skill: require("../../../Libraries/Skill"),
   Message: require("../../../Message")
