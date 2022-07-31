@@ -9,7 +9,7 @@ class Webhooks extends LIBRARIES.Skill {
     super(_main, _settings, _folder);
     const SELF = this;
 
-    this.Main.ClientIO.on("connection", function(socket){
+    _main.ClientIO.on("connection", function(socket){
       // L'utilisateur envoie un message
       socket.on("cs_message", function(_message) {
         loop:
