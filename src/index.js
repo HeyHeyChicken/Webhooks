@@ -1,7 +1,7 @@
 const LIBRARIES = {
   Axios: require("axios"),
   Skill: require("../../../Libraries/Skill"),
-  Skill: require("../../../Libraries/Message")
+  Skill: require("../../../Message")
 };
 
 class Webhooks extends LIBRARIES.Skill {
@@ -12,7 +12,6 @@ class Webhooks extends LIBRARIES.Skill {
     this.Main.ClientIO.on("connection", function(socket){
       // L'utilisateur envoie un message
       socket.on("cs_message", function(_message) {
-        console.log(_message);
         loop:
         for(let i = 0; i < _settings.length; i++){
           for(let j = 0; j < _settings[i].utterances.length; j++){
