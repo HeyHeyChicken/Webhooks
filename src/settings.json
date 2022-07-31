@@ -1,0 +1,29 @@
+{
+  "FolderName":"Webhooks",
+  "Settings":[
+    {
+      "utterances": [
+        "Allume la lumière de l'entrée",
+      ],
+      "urls": [
+        ""
+      ],
+      "answers": [
+        "J'ai allumé la lumière de l'entrée.",
+        "OK."
+      ]
+    },
+    {
+      "utterances": [
+        "Éteins la lumière de l'entrée",
+      ],
+      "urls": [
+        ""
+      ],
+      "answers": [
+        "J'ai éteins la lumière de l'entrée.",
+        "OK."
+      ]
+    }
+  ]
+}

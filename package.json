@@ -1,0 +1,23 @@
+{
+  "name": "nova-webhooks",
+  "version": "1.0.0",
+  "description": "This skill will allow your NOVA assistant to play you some Spotify music.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyHeyChicken/NOVA-Spotify.git"
+  },
+  "author": "Antoine Duval",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/HeyHeyChicken/NOVA-Spotify/issues"
+  },
+  "homepage": "https://github.com/HeyHeyChicken/NOVA-Spotify#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0"
+  }
+}
