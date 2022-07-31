@@ -1,6 +1,7 @@
 const LIBRARIES = {
   Axios: require("axios"),
-  Skill: require("../../../Libraries/Skill")
+  Skill: require("../../../Libraries/Skill"),
+  Skill: require("../../../Libraries/Message")
 };
 
 class Webhooks extends LIBRARIES.Skill {
