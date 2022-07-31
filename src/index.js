@@ -1,4 +1,5 @@
-const LIBRARIES = {
+
+SELF.TTS(socket, text);const LIBRARIES = {
   Axios: require("axios"),
   Skill: require("../../../Libraries/Skill"),
   Message: require("../../../Message")
@@ -20,6 +21,7 @@ class Webhooks extends LIBRARIES.Skill {
                 LIBRARIES.Axios.get(_settings[i].urls[k]).then(res => {
                   const TEXT = _settings[i].answers[Math.floor(Math.random() * _settings[i].answers.length)];
                   socket.emit("sc_message", new LIBRARIES.Message(TEXT, true));
+                  _main.TTS(socket, TEXT);
                 })
                 .catch(error => {
                   console.error(error);
