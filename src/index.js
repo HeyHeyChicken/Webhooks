@@ -12,6 +12,7 @@ class Webhooks extends LIBRARIES.Skill {
     for(let i = 0; i < _settings.length; i++){
       const INTENT = "webkooks.intent_" + i;
       _main.Manager.addDocuments(INTENT, _settings[i].utterances);
+      console.log(_settings[i].answers);
       _main.Manager.addAnswers(INTENT, _settings[i].answers);
       _main.Manager.addAction(INTENT, function(_intent, _socket){
         for(let k = 0; k < _settings[i].urls.length; k++){
