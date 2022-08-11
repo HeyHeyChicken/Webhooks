@@ -1,0 +1,14 @@
+{
+	"worksOffline" : false,
+	"description" : {
+		"fr-FR": "Cette compétence vous permettra d'appeler une requête Web sur des phrases spécifiques.",
+		"en-US": "This skill will allow you to call web request on specific sentences."
+	},
+	"language": [
+		"fr-FR",
+		"en-US",
+		"es-ES",
+		"it-IT",
+		"de-DE"
+	]
+}
